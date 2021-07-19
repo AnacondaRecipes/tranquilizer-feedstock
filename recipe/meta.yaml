@@ -33,10 +33,7 @@ requirements:
 test:
   imports:
     - tranquilizer
-  requires:
-    - pip
   commands:
-    - pip check
     - tranquilizer --help
 
 about:
