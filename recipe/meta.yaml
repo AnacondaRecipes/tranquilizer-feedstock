@@ -18,19 +18,25 @@ build:
 
 requirements:
   host:
-    - python >=3.5, <3.9
+    - python >=3.5,<3.9
     - pip
+    - setuptools
+    - wheel
   run:
-    - python >=3.5, <3.9
+    - python >=3.5,<3.9
     - flask
-    - werkzeug >=0.15, <2.0
+    - werkzeug >=0.15,<2.0
     - flask-restx
     - python-dateutil
+    - flask-cors
 
 test:
   imports:
     - tranquilizer
+  requires:
+    - pip
   commands:
+    - pip check
     - tranquilizer --help
 
 about:
@@ -39,6 +45,8 @@ about:
   license_family: BSD
   license_file: LICENSE
   summary: Put your Python functions to REST; deploy a REST API with one line by decorating your functions.
+  dev_url: http://github.com/ContinuumIO/tranquilizer
+  doc_url: https://github.com/ContinuumIO/tranquilizer/blob/master/README.md
 
 extra:
   recipe-maintainers:
