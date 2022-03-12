@@ -1,5 +1,5 @@
 {% set name = "tranquilizer" %}
-{% set version = "0.5.0" %}
+{% set version = "0.8.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/t/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 8adaa11f15a0c159301733c77d8cfddf4cac785c56284c2e4d51224ca3dd0daf
+  sha256: 709ab21fad149b11458525ff2e97696f71d611774844fa03ba1e21024aafb2ba
 
 build:
   number: 0
