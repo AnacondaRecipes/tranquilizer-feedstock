@@ -14,7 +14,7 @@ build:
   script: {{ PYTHON }} -m pip install . --no-deps --no-build-isolation --ignore-installed -vv
   entry_points:
     - tranquilizer = tranquilizer.main:run
-  skip: True # [py<36 or py>=3.13]
+  skip: True # [py<36 or py>=313]
 
 requirements:
   host:
