@@ -32,10 +32,13 @@ requirements:
     - flask-jwt-extended >=4
 
 test:
+  requires:
+    - pip
   imports:
     - tranquilizer
   commands:
     - tranquilizer --help
+    - pip check
 
 about:
   home: https://github.com/ContinuumIO/tranquilizer
