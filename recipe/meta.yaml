@@ -38,11 +38,15 @@ test:
     - tranquilizer --help
 
 about:
-  home: http://github.com/ContinuumIO/tranquilizer
+  home: https://github.com/ContinuumIO/tranquilizer
   license: BSD-3-Clause
   license_family: BSD
   license_file: LICENSE
-  summary: Put your Python functions to REST; deploy a REST API with one line by decorating your functions.
+  summary: Put your Python functions to REST
+  description: |
+    Deploy a REST API with one line by decorating your functions.
+  dev_url: https://github.com/ContinuumIO/tranquilizer
+  doc_url: https://github.com/ContinuumIO/tranquilizer?tab=readme-ov-file#readme
 
 extra:
   recipe-maintainers:
