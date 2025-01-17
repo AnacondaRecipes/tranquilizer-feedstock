@@ -42,7 +42,7 @@ test:
     - numpy
     - pandas
     - pillow
-    - nbconvert
+    - nbconvert  # [py<313]
     - ipython
   commands:
     - tranquilizer --help
