@@ -1,0 +1,9 @@
+pbp_autopublish: false
+
+build_env_vars:
+  ANACONDA_ROCKET_ENABLE_PY313: yes
+
+channels:
+  - https://staging.continuum.io/prefect/fs/werkzeug-feedstock/pr12/8d990c6
+  - https://staging.continuum.io/prefect/fs/blinker-feedstock/pr9/270c993
+  - https://staging.continuum.io/prefect/fs/flask-feedstock/pr13/1e27f78
